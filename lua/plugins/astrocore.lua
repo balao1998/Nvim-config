@@ -16,7 +16,7 @@ return {
         number = true,         -- Mostra o número da linha atual
         spell = false,         -- Desativado por padrão (ativamos no ftplugin de LaTeX)
         signcolumn = "yes",
-        wrap = false,          -- Não quebra linhas visualmente
+        wrap = true,          -- Não quebra linhas visualmente
       },
       g = {
         -- O teu localleader já está definido como "," no lazy_setup.lua

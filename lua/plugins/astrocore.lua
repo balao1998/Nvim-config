@@ -29,6 +29,10 @@ return {
         ["[b"] = { function() require("astrocore.buffer").nav(-vim.v.count1) end, desc = "Previous buffer" },
         ["<Leader>bd"] = { function() require("astrocore.buffer").close() end, desc = "Close buffer" },
       },
+      t = {
+        ["<Esc>"] = { [[<C-\><C-n>]], desc = "Exit insert mode on terminal" },
+      },
+
     },
   },
 }
